@@ -1,0 +1,21 @@
+.collectablesCardWrapper {
+  box-shadow: 0 0 40px 40px rgb(54 54 54) inset;
+  max-height: 80vh;
+  max-width: 80vw;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  transition: box-shadow 0.2s ease-in-out;
+  flex-grow: 1;
+}
+
+.collectablesCardWrapper:hover {
+  box-shadow: 0 0 120px 120px rgb(54 54 54) inset;
+}
+
+.collectablesCardWrapper p {
+  text-align: center;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
+  margin-top: auto;
+  width: 100%;
+}
